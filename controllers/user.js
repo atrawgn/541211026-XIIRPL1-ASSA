@@ -18,7 +18,6 @@ module.exports = {
                 message: "Data masih kosong"
             })
         }
-        res.json(users)
       },
       store: (req, res) => {
         users.push(req.body)
